@@ -1,0 +1,4 @@
+export QT_QPA_PLATFORMTHEME=qt6ct
+export BAT_THEME="Catppuccin Mocha"
+export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$PATH:$HOME/.yarn/bin

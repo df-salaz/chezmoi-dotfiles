@@ -1,0 +1,16 @@
+[user]
+  name = df-salaz
+  email = df.salaz@gmail.com
+
+[core]
+  editor = nvim
+  pager = delta
+
+[init]
+  defaultBranch = main
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true

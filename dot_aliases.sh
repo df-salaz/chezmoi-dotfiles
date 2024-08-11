@@ -1,0 +1,8 @@
+alias 'c'='clear'
+alias 'vim'='nvim'
+alias 'ls'='eza --icons=auto'
+alias 'll'='ls -l'
+alias 'la'='ll -A'
+alias 'man'='batman'
+alias 'hf'='hyfetch'
+alias 'svim'='sudoedit'

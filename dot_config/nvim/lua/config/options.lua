@@ -5,4 +5,4 @@
 vim.g.vimtex_view_method = "zathura"
 
 vim.o.textwidth = 79
-vim.o.formatoptions = "tcrqwanlj"
+vim.o.formatoptions = "crqwanlj"

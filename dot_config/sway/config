@@ -233,6 +233,9 @@ input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
   # Make the current focus fullscreen
   bindsym $mod+f fullscreen
 
+  # Pin floating window to all workspaces
+  bindsym $mod+p sticky toggle
+
   # Toggle the current focus between tiling and floating mode
   bindsym $mod+v floating toggle
 

@@ -12,7 +12,7 @@ set $term kitty
 # Your preferred application launcher
 set $menu fuzzel
 # Interactive power menu
-set $power-menu /home/koye/.config/sway/power-menu.sh
+set $power-menu $(pwd)/.config/sway/power-menu.sh
 # Screen locker
 set $lock 'swaylock -f'
 

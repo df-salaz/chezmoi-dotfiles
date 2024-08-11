@@ -17,7 +17,7 @@ set $power-menu /home/koye/.config/sway/power-menu.sh
 set $lock 'swaylock -f'
 
 ### Execs
-exec_always (killall waybar||true) && waybar -c $(pwd)/.config/waybar/config-sway.jsonc
+exec_always (killall waybar||true) && waybar -c $(pwd)/.config/waybar/config-sway.jsonc -s $(pwd)/.config/waybar/style-sway.css
 # Autotiling
 exec autotiling-rs
 # Background services

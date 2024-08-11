@@ -4,7 +4,7 @@
 
 vim.g.vimtex_view_method = "zathura"
 
-vim.o.textwidth = 79
+vim.o.textwidth = 80
 vim.o.formatoptions = "crqwanlj"
 
 vim.o.guifont = "JetBrainsMono NF:h12"

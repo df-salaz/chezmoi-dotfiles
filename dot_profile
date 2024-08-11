@@ -1,4 +1,4 @@
-export EDITOR=/bin/neovide
+export EDITOR=/bin/nvim
 export QT_QPA_PLATFORMTHEME=qt6ct
 export GTK_THEME=adw-gtk3-dark
 export BAT_THEME="Catppuccin Mocha"

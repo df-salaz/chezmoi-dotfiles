@@ -1,0 +1,6 @@
+fork = false
+idle = true
+
+[font]
+normal = ["JetBrainsMono NF"]
+size = 12

@@ -1,5 +1,5 @@
 alias 'c'='clear'
-alias 'vim'='nvim'
+alias 'vim'='neovide'
 alias 'vim.'='vim .'
 alias 'ls'='eza --icons=auto'
 alias 'll'='ls -l'

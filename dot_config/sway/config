@@ -20,9 +20,8 @@ set $lock 'swaylock -f'
 exec_always (killall waybar||true) && waybar -c $(pwd)/.config/waybar/sway/config.jsonc -s $(pwd)/.config/waybar/sway/style.css
 # Autotiling
 exec autotiling-rs
-# Background services
-exec easyeffects --gapplication-service
-exec vesktop --start-minimized
+# Startup programs
+exec $(pwd)/.startup.sh
 
 ### Appearance
 # Colors

@@ -17,6 +17,7 @@ set $power-menu /home/koye/.config/sway/power-menu.sh
 set $lock 'swaylock -f'
 
 ### Execs
+exec_always (killall waybar||true) && waybar -c $(pwd)/.config/waybar/config-sway.jsonc
 # Autotiling
 exec autotiling-rs
 # Background services
@@ -274,16 +275,6 @@ mode "resize" {
   # Return to default mode
   bindsym Return mode "default"
   bindsym Escape mode "default"
-}
-# bindsym $mod+r mode "resize"
-
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-bar {
-  position top
-  swaybar_command waybar
 }
 
 include /etc/sway/config.d/*

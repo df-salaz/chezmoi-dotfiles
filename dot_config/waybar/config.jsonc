@@ -39,8 +39,8 @@
   "clock": {
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "interval": 1,
-    "format": "{:%m-%d-%Y @ %H:%M}",
-    "format-alt": "{:%m-%d-%Y}"
+    "format": "{:%A %I:%M %p}",
+    "format-alt": "{:%B %d, %Y}"
   },
   "backlight": {
     "format": "{percent}% {icon}",

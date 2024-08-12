@@ -1,6 +1,7 @@
 alias 'c'='clear'
 alias 'vim'='nvim'
 alias 'vim.'='vim .'
+alias 'lg'='lazygit'
 alias 'ls'='eza --icons=auto'
 alias 'll'='ls -l'
 alias 'la'='ll -A'

@@ -1,8 +1,8 @@
 @import "../style.css";
 
 #workspaces button.active {
-    background-color: @blue;
-    font-weight: 900;
-    color: @crust;
+  background-color: @blue;
+  font-weight: 900;
+  color: @crust;
 }
 

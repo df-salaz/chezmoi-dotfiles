@@ -66,8 +66,12 @@ gaps outer 0
 
 # Borders
 smart_borders on
-default_border pixel 2
-default_floating_border pixel 2
+# default_border pixel 2
+# default_floating_border pixel 2
+# The above would work in a perfect world, but some windows just decide to draw 
+# their own borders anyway. ex: windows that were spawned as tiled, then become 
+# floating.
+for_window [app_id=".*"] border pixel 2
 
 # window corner radius in px
 corner_radius 10

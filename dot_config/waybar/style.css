@@ -58,11 +58,6 @@ button:hover {
   color: @crust;
 }
 
-#mode {
-  background-color: @base;
-  color: @text;
-}
-
 #power-profiles-daemon,
 #clock,
 #battery,
@@ -85,6 +80,13 @@ button:hover {
   border-radius: 6px;
   margin: 4px 2px;
   font-weight: bold;
+}
+
+#mode {
+  background-color: @mauve;
+  color: @base;
+  margin-left: 0px;
+  margin-right: 4px;
 }
 
 #window,

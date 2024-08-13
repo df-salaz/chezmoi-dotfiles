@@ -224,6 +224,9 @@ input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
   # Swipe gestures
   bindgesture swipe:right workspace prev
   bindgesture swipe:left workspace next
+  # Scroll gestures
+  bindsym --whole-window --border $mod+button5 workspace next
+  bindsym --whole-window --border $mod+button4 workspace prev
 #
 # Layout stuff:
 #

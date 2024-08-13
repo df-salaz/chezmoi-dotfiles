@@ -10,8 +10,7 @@
     "sway/window"
   ],
   "sway/workspaces": {
-    "disable-scroll": false,
-    "disable-scroll-wraparound": true,
+    "disable-scroll": true,
     "all-outputs": false,
     "warp-on-scroll": false
   },

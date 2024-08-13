@@ -4,3 +4,5 @@ export GTK_THEME=adw-gtk3-dark
 export BAT_THEME="Catppuccin Mocha"
 export PATH=$PATH:$HOME/.cargo/bin
 export PATH=$PATH:$HOME/.yarn/bin
+dconf load / < $HOME/.dconf-settings.ini &
+

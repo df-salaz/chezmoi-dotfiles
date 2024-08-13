@@ -122,9 +122,13 @@ exec swayidle -w \
 #
 # Example configuration:
 #
+input * {
+  accel_profile "flat"
+}
 input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
   dwt enabled
   tap enabled
+  accel_profile "adaptive"
   natural_scroll enabled
   middle_emulation enabled
 }

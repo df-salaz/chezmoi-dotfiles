@@ -264,6 +264,8 @@ input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
 #
 # Resizing containers:
 #
+
+bindsym $mod+q mode resize
 mode "resize" {
   # left will shrink the containers width
   # right will grow the containers width
@@ -286,3 +288,4 @@ mode "resize" {
 }
 
 include /etc/sway/config.d/*
+

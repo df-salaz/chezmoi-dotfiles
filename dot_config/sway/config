@@ -128,13 +128,13 @@ exec swayidle -w \
 #
 input * {
   accel_profile "flat"
-}
-input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
   dwt enabled
   tap enabled
-  accel_profile "adaptive"
-  natural_scroll enabled
   middle_emulation enabled
+}
+input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
+  natural_scroll enabled
+  accel_profile "adaptive"
 }
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs

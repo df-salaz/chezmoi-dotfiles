@@ -159,8 +159,13 @@ input "1739:52759:SYNA32EA:00_06CB:CE17_Touchpad" {
   # mouse button for dragging.
   floating_modifier $mod normal
 
-  # Take screenshots
+  ### Take screenshots
+  # Region
   bindsym $mod+Shift+s exec grim -g "$(slurp -d)" - | wl-copy
+  # Current monitor
+  bindsym Print exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select(.focused) | .name') - | wl-copy
+  # All monitors
+  bindsym Shift+Print exec grim - | wl-copy
 
   # Reload the configuration file
   bindsym $mod+Shift+c reload
@@ -289,6 +294,8 @@ mode "resize" {
   bindsym Return mode "default"
   bindsym Escape mode "default"
   bindsym $mod+q mode "default"
+
+  bindsym $mod+Shift+s exec grim -g "$(slurp -d)" - | wl-copy
 }
 
 include /etc/sway/config.d/*

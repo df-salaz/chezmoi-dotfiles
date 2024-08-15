@@ -2,3 +2,7 @@
 easyeffects --gapplication-service &
 vesktop --start-minimized &
 udiskie &
+{{- if eq .chezmoi.hostname "arch-pc" }}
+corectrl &
+{{- end }}
+

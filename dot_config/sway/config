@@ -18,6 +18,7 @@ set $lock 'swaylock -f'
 
 ### Execs
 exec_always (killall waybar||true) && waybar -c $(pwd)/.config/waybar/sway/config.jsonc -s $(pwd)/.config/waybar/sway/style.css
+exec_always $(pwd)/.config/sway/primary-monitor.sh
 # Autotiling
 exec autotiling-rs
 # Startup programs

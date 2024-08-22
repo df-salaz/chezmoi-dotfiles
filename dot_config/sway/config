@@ -104,7 +104,6 @@ output * {
 }
 output HDMI-A-1 {
   mode 1440x900@74.984Hz
-  max_render_time 4
   position 0,0
 }
 output eDP-1 {

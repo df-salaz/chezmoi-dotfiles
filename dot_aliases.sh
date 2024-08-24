@@ -1,5 +1,19 @@
+vim() {
+  if [ "$XDG_CURRENT_DESKTOP" = 'Hyprland' ]; then
+    if [ "$#" = '0' ]; then
+      neovide
+    else
+      neovide "$*"
+    fi
+  else
+    if [ "$#" = '0' ]; then
+      nvim
+    else
+      nvim "$*"
+    fi
+  fi
+}
 alias 'c'='clear'
-alias 'vim'='nvim'
 alias 'vim.'='vim .'
 alias 'lg'='lazygit'
 alias 'ls'='eza --icons=auto'

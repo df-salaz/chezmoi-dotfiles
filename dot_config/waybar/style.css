@@ -11,7 +11,7 @@
 
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  /*font-family: JetBrainsMonoNerdFont, FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
+  font-family: JetBrainsMonoNerdFont, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
   font-size: 10pt;
 }
 
@@ -248,7 +248,7 @@ label:focus {
 
 #tray > .needs-attention {
   -gtk-icon-effect: highlight;
-  background-color: #ff8348;
+  background-color: @red;
 }
 
 #idle_inhibitor {

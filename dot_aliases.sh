@@ -1,16 +1,8 @@
 vim() {
   if [ "$XDG_CURRENT_DESKTOP" = 'Hyprland' ]; then
-    if [ "$#" = '0' ]; then
-      neovide
-    else
-      neovide "$*"
-    fi
+    neovide $*
   else
-    if [ "$#" = '0' ]; then
-      nvim
-    else
-      nvim "$*"
-    fi
+    nvim $*
   fi
 }
 alias 'c'='clear'

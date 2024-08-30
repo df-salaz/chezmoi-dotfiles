@@ -34,8 +34,8 @@ disable-caps-lock-text
 text-clear=
 text-ver=
 text-wrong=
-timestr=%H:%M
+timestr=%I:%M %p
 font=JetBrainsMono NF
-font-size=256
+font-size=200
 indicator-radius=512
 indicator-thickness=48
